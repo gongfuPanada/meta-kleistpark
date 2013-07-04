@@ -8,32 +8,24 @@ Please see the corresponding sections below for details.
 
 
 Dependencies
-============
+------------
 
 This layer depends on:
 
-  URI: git://git.yoctoproject.org/poky.git 
+  URI: git://git.yoctoproject.org/poky.git
+
   branch: dylan
 
 
 Patches
-=======
+-------
 
 Please submit any patches against the kleistpark layer to the
-DirectFB developers (dev@directfb.org) and cc: the maintainer:
-
-Maintainer: Tarik Sekmen <tarik@ilixi.org>
+DirectFB developers (dev@directfb.org) with subject "[meta-kleistpark]".
 
 
-Table of Contents
-=================
-
-  I. Adding the kleistpark layer to your build
- II. Misc
-
-
-I. Adding the kleistpark layer to your build
-=================================================
+Adding the kleistpark layer to your build
+--------------------------------------------
 
 In order to use this layer, you need to make the build system aware of
 it.
@@ -51,7 +43,6 @@ other layers needed. e.g.:
     "
 
 
-II. Misc
-========
-
---- replace with specific information about the kleistpark layer ---
+Available images
+----------------
+* kleistpark-image
