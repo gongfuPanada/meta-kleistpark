@@ -1,0 +1,1 @@
+KERNEL=="one[0-7]*", NAME="one%n", GROUP="video", MODE="0660"

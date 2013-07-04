@@ -1,0 +1,12 @@
+diff -rupN a//Makefile.am c//Makefile.am
+--- a//Makefile.am	2010-12-15 11:03:07.000000000 +0100
++++ c//Makefile.am	2012-04-16 17:49:48.500269207 +0200
+@@ -22,7 +22,7 @@ doc_subdirs = docs
+ else
+ doc_subdirs =
+ endif
+-SUBDIRS = sigc++ tests examples $(doc_subdirs)
++SUBDIRS = sigc++
+ 
+ sigc_configdir = $(libdir)/$(SIGCXX_MODULE_NAME)/include
+ nodist_sigc_config_HEADERS = sigc++config.h
