@@ -35,3 +35,5 @@ do_install() {
 }
 
 MAKE_TARGETS = "KERNEL_BUILD=${STAGING_KERNEL_DIR} MAKE='make -e'"
+
+FILES_${PN} += "${etcdir}/*.rules"
