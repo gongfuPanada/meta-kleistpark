@@ -1,0 +1,18 @@
+diff -u git/configure.in b/configure.in
+--- a/configure.in	2013-07-04 19:06:32.928263524 +0300
++++ b/configure.in	2013-07-04 21:02:51.540394538 +0300
+@@ -112,13 +112,6 @@
+ AC_CHECK_SIZEOF(long long)
+ AC_CHECK_FUNCS(fork)
+ 
+-
+-## Work around libstuhl during cross build...
+-if test "$host" != "$build"; then
+-  sys_lib_dlsearch_path_spec=""
+-  sys_lib_search_path_spec=""
+-fi
+-
+ AC_PATH_PROGS(PERL, perl5 perl)
+ 
+ AC_PATH_PROG(MAN2HTML, man2html, no)
+
