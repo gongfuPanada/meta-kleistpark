@@ -10,7 +10,6 @@ S 	= "${WORKDIR}/git"
 
 DEPENDS += "flux-native linux-fusion"
 PROVIDES = "fusiondale fusionsound sawman"
-RPROVIDES_${PN} = "fusiondale fusionsound sawman"
 
 EXTRA_OECONF = "\
 	--enable-multi \
