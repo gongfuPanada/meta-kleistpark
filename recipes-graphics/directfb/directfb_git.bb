@@ -1,6 +1,6 @@
 require directfb.inc
 
-PR = "r1"
+PR = "r0"
 PV = "1.7-0"
 
 SRC_URI	= "git://git.directfb.org/git/directfb/core/DirectFB.git \
