@@ -1,7 +1,7 @@
 require directfb.inc
 
-RV = "1.7-0"
 PR = "r1"
+PV = "1.7-0"
 
 SRC_URI	= "git://git.directfb.org/git/directfb/core/DirectFB.git \
 	file://remove-configure-cc-workaround.patch"
